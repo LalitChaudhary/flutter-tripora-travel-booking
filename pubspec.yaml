@@ -1,0 +1,22 @@
+name: tripora
+description: Tripora — travel booking demo using Redux.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  redux: 5.0.0
+  flutter_redux: 0.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.3
+
+flutter:
+  uses-material-design: true
